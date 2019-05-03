@@ -1,6 +1,6 @@
 div {
     border: 1px solid black;
 }
-header, footer, main {
+header, main, footer {
     border: 1px dotted black;
 }
