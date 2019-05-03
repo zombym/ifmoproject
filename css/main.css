@@ -1,6 +1,51 @@
-div {
-    border: 1px solid black;
-}
 header, main, footer {
-    border: 1px dotted black;
+    margin: 3px;
+}
+
+header{
+    padding: 10px;
+    height: 110px;
+    background: #aaaaaa40;
+}
+
+main {
+    width: 95%;
+    height: 800px;
+    margin: auto;
+    background: #aaaaaa40;
+}
+
+footer {
+    height: 200px;
+    background: #aaaaaa40;
+}
+
+.header-logo {
+    height: 110px;
+    width: 110px;
+    float: left;
+}
+
+.header-menu {
+    float: right;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+}
+.header-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.header-menu-button{
+    height: 80%;
+    width: 20%;
+    margin: 10px 2%;
+    display: inline-block; 
+    border: 1px solid black;
+    line-height: 90px;
+}
+
+.header-menu-button:hover{
+    background: #aaaaaa;
 }
