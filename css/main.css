@@ -10,9 +10,10 @@ header{
 
 main {
     width: 95%;
-    height: 800px;
+    height: 790px;
     margin: auto;
     background: #aaaaaa40;
+    padding: 3px;
 }
 
 footer {
@@ -29,7 +30,7 @@ footer {
 .header-menu {
     float: right;
     height: 100%;
-    width: 90%;
+    width: 88%;
     text-align: center;
 }
 .header-logo img {
@@ -48,4 +49,27 @@ footer {
 
 .header-menu-button:hover{
     background: #aaaaaa;
+}
+
+.main-article{
+    height: 150;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.article-img{
+    height: 100%;
+    width: 230px;
+    margin: 0px;
+    display: inline-block;
+}
+.article-text{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.article-img img{
+    height: 100%;
+    width: 230px;
 }
