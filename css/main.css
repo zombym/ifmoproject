@@ -61,12 +61,12 @@ footer {
     height: 100%;
     width: 230px;
     margin: 0px;
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
 }
 .article-text{
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 10px;
+    display: block;
+    margin-left: 240px;
 }
 
 .article-img img{
